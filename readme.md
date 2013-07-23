@@ -8,4 +8,4 @@
 6. ```$ rake db:seed```
 7. Final step TBD :)
 
-To access the database console: ```sqlite3 /path/to/canvas-importer.db```
+To access the database console: ```$ sqlite3 /path/to/canvas-importer.db```
