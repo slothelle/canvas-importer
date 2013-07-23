@@ -7,3 +7,5 @@
 5. Confirm that the CSV files you wish to import/read are stored inside of ```/db/csv```
 6. ```$ rake db:seed```
 7. Final step TBD :)
+
+To access the database console: ```sqlite3 /path/to/canvas-importer.db```
