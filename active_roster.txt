@@ -1,0 +1,126 @@
+Suicide (ID: C628944)
+Chloe Wood (ID: U346561)
+Alexander Cruz (ID: U917218)
+Alexander Stewart (ID: U192467)
+Michael Parker (ID: U266829)
+Emily Miller (ID: U700672)
+Olivia Price (ID: U387250)
+Abigail Hughes (ID: U297015)
+Madison Moore (ID: U700516)
+
+.........................
+
+Patents (ID: C424294)
+Alexander Cruz (ID: U917218)
+Michael Parker (ID: U266829)
+William Roberts (ID: U977454)
+Emily Miller (ID: U700672)
+Olivia Price (ID: U387250)
+Sophia Williams (ID: U652606)
+
+.........................
+
+Astronautics (ID: C300581)
+Chloe Wood (ID: U346561)
+Michael Cox (ID: U824115)
+William Allen (ID: U979173)
+Olivia Price (ID: U387250)
+Sophia Williams (ID: U652606)
+William Gray (ID: U139455)
+
+.........................
+
+Budgeting (ID: C967824)
+Alexander Cruz (ID: U917218)
+William Allen (ID: U979173)
+Mia Hill (ID: U511908)
+
+.........................
+
+Substance abuse (ID: C696253)
+Chloe Wood (ID: U346561)
+Alexander Cruz (ID: U917218)
+Daniel Phillips (ID: U966556)
+Chloe Turner (ID: U812256)
+Noah Nelson (ID: U292615)
+Abigail Hughes (ID: U297015)
+Sophia Thompson (ID: U180698)
+Sophia Williams (ID: U652606)
+Ava Watson (ID: U443006)
+
+.........................
+
+Natural religion (ID: C165687)
+Chloe Wood (ID: U346561)
+Daniel Phillips (ID: U966556)
+Chloe Turner (ID: U812256)
+Daniel Bennett (ID: U872282)
+Olivia Price (ID: U387250)
+
+.........................
+
+French language (ID: C035962)
+Alexander Stewart (ID: U192467)
+Isabella Gray (ID: U401211)
+William Allen (ID: U979173)
+Noah Nelson (ID: U292615)
+Abigail Hughes (ID: U297015)
+Sophia Thompson (ID: U180698)
+Ava Watson (ID: U443006)
+Alexander Bell (ID: U617555)
+
+.........................
+
+Judiciary (ID: C032306)
+Alexander Cruz (ID: U917218)
+Mia Hill (ID: U511908)
+Sophia Williams (ID: U652606)
+
+.........................
+
+Abortion, law (ID: C732380)
+Chloe Wood (ID: U346561)
+Alexander Cruz (ID: U917218)
+Alexander Stewart (ID: U192467)
+Michael Cox (ID: U824115)
+Chloe Turner (ID: U812256)
+William Roberts (ID: U977454)
+Sophia Cox (ID: U507687)
+William Gray (ID: U139455)
+Ava Turner (ID: U877257)
+
+.........................
+
+Jokes (ID: C921807)
+William Gray (ID: U139455)
+Emma King (ID: U215381)
+
+.........................
+
+Botany (ID: C963278)
+Madison Moore (ID: U700516)
+
+.........................
+
+Air warfare (ID: C494738)
+Chloe Wood (ID: U346561)
+
+.........................
+
+Diseases (ID: C289566)
+Chloe Wood (ID: U346561)
+Aiden Richardson (ID: U806445)
+
+.........................
+
+Depression glass (ID: C439738)
+William Gray (ID: U139455)
+
+.........................
+
+Kitchen remodeling (ID: C222487)
+Sophia Williams (ID: U652606)
+Noah Hern (ID: U176749)
+
+.........................
+
