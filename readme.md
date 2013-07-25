@@ -1,6 +1,13 @@
 ## Instructions for ~Magical~ CLI CSV Parser
 
-CLI app to mass-import CSVs of Students, Courses, and Enrollments. While the importer itself does not make too many assumptions about the data available, it does require that each CSV row include: (a) ```course_id```, (b) ```user_id```, or (c) ```course_id``` *and* ```user_id```.
+CLI app to mass-import CSVs of Students, Courses, and Enrollments.
+
+The following assumptions are made:
+
+1. Each CSV includes (a) ```course_id```, (b) ```user_id```, or (c) ```course_id``` *and* ```user_id```.
+2. The file has been unzipped and the CSVs are stored inside of the ```db/csv``` folder.
+3. Enrollments are created with pre-existing Student and Course objects. As a result...
+4. Files are processed in order, but those that meet the condition for Enrollment objects are processed differently. Instead of being added to the databse immediately, they are saved for last to ensure that all Student and Course objects have been created in the database. This is great because if an institution decides to get liberal with their file organization, the importer will still work.
 
 ### Schema
 ```sql
@@ -16,10 +23,9 @@ CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version"
 ### Usage
 1. ```$ git clone https://github.com/feministy/canvas_importer.git```
 2. ```$ bundle install```
-3. ```$ rake db:create && $ rake db:migrate```
-4. Confirm that the CSV files you wish to import/read are stored inside of ```../db/csv``` and that they meet the requirements noted above. Adjust models and migrations if your files differ in format prior to next step.
-5. ```$ rake db:seed```
-6. Final step TBD :)
+3. Confirm that the CSV files you wish to import/read are stored inside of ```db/csv``` and that they meet the requirements noted above. Adjust models and migrations if your files differ in format prior to next step.
+4. ```$ rake db:setup```. This will (a) create a sqlite database, (b) run migrations, (c) load and parse CSVs, (d) seed the database.
+5. ```ruby app.rb txt``` or ```ruby app.rb csv``` to generate a plain text or CSV report for all active courses listing all active students.
 
 **To access the database directly:**
 ```$ sqlite3 /path/to/canvas-importer.db```
