@@ -1,11 +1,13 @@
-require_relative '../app/helpers/importer_helper'
-
-class Seeder
-  include ImporterHelper
+class ChattySeeder
+  include Importer
+  include Sorter
 
   def initialize
-    puts "Import processing..."
+    print "\nImport processing..."
+    # Reading all CSV files from db/csv folder
+    # Creating Student, Course objects
     load_all_csv_files { |file| parse_csv(file) }
+    # Creating Enrollment objects
     create_enrollments
   end
 
@@ -21,5 +23,5 @@ class Seeder
   end
 end
 
-seed = Seeder.new
+seed = ChattySeeder.new
 seed.display_results
