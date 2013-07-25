@@ -1,5 +1,6 @@
 class Student < ActiveRecord::Base
   has_many :enrollments
+  has_many :courses, :through => :enrollments
 
   alias_attribute :user_name, :name
 
