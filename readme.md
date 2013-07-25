@@ -14,7 +14,7 @@ The following assumptions are made:
 2. ```$ bundle install```
 3. Confirm that the CSV files you wish to import/read are stored inside of ```db/csv``` and that they meet the requirements noted above. Adjust models and migrations if your files differ in format prior to next step.
 4. ```$ rake db:setup```. This will (a) create a sqlite database, (b) run migrations, (c) load and parse CSVs, (d) seed the database.
-5. ```ruby app.rb txt``` or ```ruby app.rb csv``` to generate a plain text or CSV report for all active courses listing all active students.
+5. ```$ ruby app.rb txt``` or ```$ ruby app.rb csv``` to generate a plain text or CSV report for all active courses listing all active students.
 
 **To access the database directly:**
 ```$ sqlite3 /path/to/canvas-importer.db```
