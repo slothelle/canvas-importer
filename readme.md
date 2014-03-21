@@ -1,4 +1,4 @@
-## Instructions for ~Magical~ CLI CSV Parser
+# Instructions for ~Magical~ CLI CSV Parser
 
 CLI app to mass-import CSVs of Students, Courses, and Enrollments.
 
